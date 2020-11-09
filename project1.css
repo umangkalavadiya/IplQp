@@ -1,0 +1,176 @@
+ * {
+    box-sizing:border-box;
+  
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url(images/bgmemo2.jpg);
+  
+    width: 90%;
+    margin-left: 5%;
+    
+  }
+  
+  .logo
+  {
+    margin-bottom: 20px;
+   width: 1200px;
+    height:450px;
+
+
+  }
+  
+  .header {
+
+    text-align: center;
+  background-image: url(images/aboutipl.jpg);
+    color: rgb(223, 223, 245);
+    
+  }
+  
+  .header h1 {
+    font-size: 60px;
+  }
+  
+  
+  .topnav {
+    overflow: hidden;
+   width: 88.7%;
+    position: fixed;
+    background-color:lightskyblue;
+    background-color:	rgb(13, 47, 93)
+ 
+  }
+
+
+  .topipl
+  {
+    margin-left:-30px;
+    margin-top: 0px;
+    width: 250px;
+    height: 100px;
+  }
+  
+  .topnav a {
+    
+    margin: 10px;
+    margin-top: 30px;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 10px;
+    text-decoration: none;
+    
+  }
+  .intro
+  {
+    border-color: red; 
+    font-size: 25px;
+    border-style: solid  ;
+    font-weight: 300;
+    background-color:lightblue; 
+    font-style: oblique;
+      }
+      .opening{
+        width: 49%;
+        height: 400px;
+        margin-bottom: 10px;
+        float: left;
+       margin-right: 10px; 
+        
+      }
+      .opening2
+      {
+        width: 49%;
+        height: 400px;
+       margin-left: 10px; 
+      }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .background
+  {
+    border-color:red; 
+    font-size: 25px;
+    border-style: solid  ;
+    font-weight: 300;
+    margin: 5px;
+    background-color:lightblue; 
+    font-style: oblique;
+  }
+
+  .tformat
+  {
+    border-color: red; 
+    margin: 10px;
+    font-size: 25px;
+    border-style: solid  ;
+    font-weight: 300;
+    background-color:lightblue; 
+    font-style: oblique;
+  }
+  
+.column
+{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.row::after
+{
+content: "";
+display: table;
+clear: both;
+}
+
+.pmoney1
+{
+
+  height: 330px;
+}
+
+.pmoney2
+{
+  height: 330px;
+}
+
+
+  .pmoney
+  {
+
+    border-color:red; 
+
+    font-size: 25px;
+    
+    border-style: solid  ;
+    font-weight: 300;
+    background-color:lightblue; 
+    font-style: oblique;
+  }
+
+  
+ 
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
